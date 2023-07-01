@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="img/Icono.ico">
+
+    <link rel="stylesheet" href="css/encabezado.css">
+    <link rel="stylesheet" href="css/menulateral.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <h1 style="font-size: 30px;">Bienvenido</h1>
+            <div class="menu">
+                <label for="menu">☰</label>
+            </div>
+            <div class="logo">
+            </div>
+        </div>
+    </header>
+
+    <input type="checkbox" id="menu">
+    <div class="contenedor-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="inicio.html">Inicio</a>
+                <a href="sala.html">Sala de Estar</a>
+                <a href="dormitorio.html">Dormitorios</a>
+                <a href="almacenamiento.html">Almacenamientos</a>
+                <a href="otros.html">Otros</a>
+            </nav>
+            <div class="cerrarsesion">
+                <a href="inventario.html">Inventario</a>
+                <a href="login.html">Cerrar Sesión</a>
+              </div>
+            <label for="menu">✖️</label>
+        </div>
+    </div>
+
+    <div class="login">
+        <h1>Inicio de Sesión</h1><br>
+        <form>
+
+            <!--Usuario-->
+            <label for="usuario">Ingrese un nombre de Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required placeholder="Ingrese un Nombre de Usuario">
+
+            <!--Contraseña-->
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required placeholder="Ingrese una Contraseña">
+
+            <!--Boton de enviar-->
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+        <br><p>¿No tienes cuenta? <a href="registro.html"  class="enlace">Registrate</a></p>
+    </div>
+</body>
+
+</html>

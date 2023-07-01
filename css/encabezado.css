@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #442D3A;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 100px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.menu,
+.logo {
+    float: left;
+    line-height: 100px;
+    position: fixed;
+    top: -20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+}

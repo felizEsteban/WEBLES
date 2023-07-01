@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="icon" href="img/Icono.ico">
+</head>
+
+<body>
+    <div class="registro">
+        <h1>Registro</h1><br>
+        <form method="post" action="conexiones/conexionregistro.php">
+            <!--Nombre-->
+            <label for="nombre">Ingrese su nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su Nombre">
+
+            <!--Apellidos-->
+            <label for="apellido">Ingrese sus apellidos:</label>
+            <input type="text" id="apellido" name="apellido" required placeholder="Ingrese sus Apellidos">
+
+            <!--Usuario-->
+            <label for="usuario">Ingrese un nombre de Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required placeholder="Ingrese un Nombre de Usuario">
+
+            <!--Correo Electronico-->
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required placeholder="correo@gmail.com">
+
+            <!--Contraseña-->
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required placeholder="Ingrese una Contraseña">
+
+            <!--Boton de enviar-->
+            <input type="submit" value="Registrarse">
+        </form>
+        <br><p>¿Ya tiene cuenta? <a href="login.html"  class="enlace">Inicie Sesión</a></p>
+    </div>
+</body>
+
+</html>

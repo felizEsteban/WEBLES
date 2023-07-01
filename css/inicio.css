@@ -1,0 +1,45 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor2 {
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  /* Agrega esta línea para centrar verticalmente */
+}
+
+@media(min-width:768px) {
+  .contenedor2 {
+    grid-template-columns: repeat(3, 1fr);
+    ;
+  }
+}
+
+@media(min-width:1025px) {
+  .contenedor2 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.articulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articulo img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-weight: bold;
+  color: #FF0000;
+}
